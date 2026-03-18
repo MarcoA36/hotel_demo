@@ -17,7 +17,7 @@ export function HotelHeader() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#inicio" className="text-sm text-foreground hover:text-primary transition-colors">
+            <a href="#" className="text-sm text-foreground hover:text-primary transition-colors">
               Inicio
             </a>
             <a href="#habitaciones" className="text-sm text-foreground hover:text-primary transition-colors">

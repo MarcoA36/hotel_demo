@@ -16,7 +16,7 @@ export function HotelFooter() {
             <h4 className="font-semibold mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#inicio" className="text-background/70 hover:text-background transition-colors">
+                <a href="#" className="text-background/70 hover:text-background transition-colors">
                   Inicio
                 </a>
               </li>
