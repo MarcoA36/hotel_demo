@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Cormorant_Garamond, Inter } from 'next/font/google'
 
 import './globals.css'
+import DemoBadge from '@/components/DemoBadge'
 
 const cormorant = Cormorant_Garamond({ 
   weight: ['300', '400', '500', '600', '700'],
@@ -27,7 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${cormorant.variable} ${inter.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        <DemoBadge/>
+        </body>
     </html>
   )
 }
